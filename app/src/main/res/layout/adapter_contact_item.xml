@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/margin_five"
+    app:cardElevation="@dimen/margin_five"
+    app:cardUseCompatPadding="true"
+    tools:context=".adapters.ContactItemAdapter">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/margin_five"
+        android:paddingEnd="@dimen/margin_five">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civProfileImage"
+            android:layout_width="@dimen/user_profile_image_height_width"
+            android:layout_height="@dimen/user_profile_image_height_width"
+            android:layout_margin="@dimen/margin_ten"
+            android:src="@mipmap/ic_launcher" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/StyleTextViewLabels"
+                    android:text="@string/name_" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvContactName"
+                    style="@style/StyleTextViewDescriptions"
+                    android:text="@string/name" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/StyleTextViewLabels"
+                    android:text="@string/birthday_" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvContactBirthday"
+                style="@style/StyleTextViewDescriptions"
+                android:text="@string/birthday" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/StyleTextViewLabels"
+                    android:text="@string/phone_" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvContactPhone"
+                    style="@style/StyleTextViewDescriptions"
+                android:text="@string/phone" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_five"
+                android:src="@drawable/ic_edit" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_five"
+                android:src="@drawable/ic_delete" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</com.google.android.material.card.MaterialCardView>

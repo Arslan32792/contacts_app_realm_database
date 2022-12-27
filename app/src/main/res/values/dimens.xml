@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_text_size">20sp</dimen>
+    <dimen name="padding_ten">10dp</dimen>
+    <dimen name="user_profile_image_height_width">55dp</dimen>
+    <dimen name="margin_twenty">20dp</dimen>
+    <dimen name="margin_ten">10dp</dimen>
+    <dimen name="descriptionsTextSize">12sp</dimen>
+    <dimen name="labelsTextSize">16sp</dimen>
+    <dimen name="add_contact_dialog_width">300dp</dimen>
+    <dimen name="add_contact_dialog_height">350dp</dimen>
+    <dimen name="margin_five">5dp</dimen>
+    <dimen name="buttons_text_size">14sp</dimen>
+
+</resources>

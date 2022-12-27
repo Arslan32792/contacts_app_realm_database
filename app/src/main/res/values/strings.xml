@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Contacts App</string>
+    <string name="name_">Name:</string>
+    <string name="name">Name</string>
+    <string name="phone_">Phone Number:</string>
+    <string name="phone">Phone Number</string>
+    <string name="birthday_">Birthday:</string>
+    <string name="birthday">Birthday</string>
+    <string name="save">Save</string>
+    <string name="upload_picture"><u>Upload Picture</u></string>
+    <string name="field_must_be_filled">Filed Must Be Filled</string>
+    <string name="update">Update</string>
+</resources>
